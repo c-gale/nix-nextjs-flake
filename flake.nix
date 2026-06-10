@@ -1,6 +1,5 @@
 {
-  description = "Next.js development environment flake";
-
+  description = "Next.js flaaake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
@@ -22,7 +21,7 @@
             nodePackages_latest.prisma
             postgresql_15
             openssl
-            prisma-engines  # ensures availability for shellHook
+            prisma-engines
           ];
 
           shellHook = ''
